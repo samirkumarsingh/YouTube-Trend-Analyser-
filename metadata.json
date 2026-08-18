@@ -1,0 +1,7 @@
+{
+  "name": "YouTube Trend Analyzer",
+  "description": "Real-time AI-powered YouTube insights, velocity spike tracking, breakout creators, keyword matrix, and viral hook studio.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+

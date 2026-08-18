@@ -1,0 +1,40 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Crimson & Neon Play Button Card Base -->
+    <path
+        android:pathData="M26,34 C26,29.58 29.58,26 34,26 L74,26 C78.42,26 82,29.58 82,34 L82,68 C82,72.42 78.42,76 74,76 L34,76 C29.58,76 26,72.42 26,68 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="26"
+                android:startY="26"
+                android:endX="82"
+                android:endY="76"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#FF0033" />
+                <item android:offset="0.6" android:color="#D90429" />
+                <item android:offset="1.0" android:color="#8B5CF6" />
+            </gradient>
+        </aapt:attr>
+    </path>
+    <!-- Play Triangle -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M48,40 L64,51 L48,62 Z" />
+    <!-- Rising Analytics Spark Line & Arrow -->
+    <path
+        android:strokeColor="#00F0FF"
+        android:strokeWidth="3.5"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:fillColor="#00000000"
+        android:pathData="M24,78 L42,66 L56,72 L78,44 L86,44 M86,44 L86,52" />
+    <!-- Pulse Highlight Star -->
+    <path
+        android:fillColor="#FFDD00"
+        android:pathData="M86,40 L87.5,43.5 L91,45 L87.5,46.5 L86,50 L84.5,46.5 L81,45 L84.5,43.5 Z" />
+</vector>
+
